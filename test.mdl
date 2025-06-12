@@ -43,8 +43,8 @@ __MWOPC_PART_BEGIN__ /metadata/coreProperties.xml
   <dcterms:created xsi:type="dcterms:W3CDTF">2025-06-12T07:46:03Z</dcterms:created>
   <dc:creator>jkhurana</dc:creator>
   <cp:lastModifiedBy>jkhurana</cp:lastModifiedBy>
-  <dcterms:modified xsi:type="dcterms:W3CDTF">2025-06-12T07:48:17Z</dcterms:modified>
-  <cp:revision>1.1</cp:revision>
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2025-06-12T07:55:43Z</dcterms:modified>
+  <cp:revision>1.2</cp:revision>
   <cp:version>R2024a</cp:version>
 </cp:coreProperties>
 
@@ -111,7 +111,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
     <ConfigManagerSettings>
       <P Name="ModifiedByFormat">%&lt;Auto&gt;</P>
       <P Name="ModifiedDateFormat">%&lt;Auto&gt;</P>
-      <P Name="ModelVersionFormat">%&lt;AutoIncrement:1.1&gt;</P>
+      <P Name="ModelVersionFormat">%&lt;AutoIncrement:1.2&gt;</P>
     </ConfigManagerSettings>
     <SimulationSettings>
       <P Name="SimulationMode">normal</P>
@@ -967,8 +967,8 @@ __MWOPC_PART_BEGIN__ /simulink/hdlParams.xml
 __MWOPC_PART_BEGIN__ /simulink/modelDictionary.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <MF0 version="1.1" defaultPackage="slid" packageUris="http://schema.mathworks.com/mf0/slid/R2023a_20220628">
-  <System type="System" uuid="079149b1-2387-4edf-bbe5-865c7007fcb7">
-    <Interface type="Interface" uuid="8bbed9db-05ff-433e-9172-21502e6bf2b0"/>
+  <System type="System" uuid="e8cf87f8-c2e4-4bdf-acc2-b3b79f5a4f55">
+    <Interface type="Interface" uuid="7443a573-a37c-44f0-89af-fbdb959adcac"/>
   </System>
 </MF0>
 __MWOPC_PART_BEGIN__ /simulink/ScheduleCore.xml
@@ -1018,6 +1018,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
   <Block BlockType="Gain" Name="Gain" SID="2">
     <P Name="Position">[420, 75, 450, 105]</P>
     <P Name="ZOrder">177</P>
+    <P Name="Gain">4</P>
   </Block>
   <Block BlockType="Outport" Name="Outport" SID="3">
     <P Name="Position">[595, 88, 625, 102]</P>
